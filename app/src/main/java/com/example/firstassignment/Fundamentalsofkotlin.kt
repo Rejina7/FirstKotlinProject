@@ -1,8 +1,8 @@
 package com.example.firstassignment
 
-fun main(){
-    val name = "Rejina Mahatara"
-    val age = 20
-    println("My name is $name and age is $age.")
-
+fun main() {
+    val name: String = "Rejina" // cannot change
+    var age: Int = 21           // can change
+    age = 22
+    println("Name: $name, Age: $age")
 }
