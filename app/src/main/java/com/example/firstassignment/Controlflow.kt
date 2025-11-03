@@ -1,13 +1,15 @@
 package com.example.firstassignment
 
 fun main() {
-    val number = 10
+    val day = 3
 
-    if (number > 0) {
-        println("$number is positive")
-    } else if (number < 0) {
-        println("$number is negative")
-    } else {
-        println("$number is zero")
+    when(day) {
+        1 -> println("Monday")
+        2 -> println("Tuesday")
+        3 -> println("Wednesday")
+        4,5 -> println("Thursday or Friday")
+        in 6..7 -> println("Weekend")
+        else -> println("Invalid day")
     }
 }
+
