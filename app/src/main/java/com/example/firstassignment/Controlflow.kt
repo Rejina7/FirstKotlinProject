@@ -1,8 +1,9 @@
 package com.example.firstassignment
 
 fun main() {
-    for (i in 1..5) { // 1 to 5
-        println(i)
+    val fruits = listOf("Apple", "Banana", "Cherry")
+    for (fruit in fruits) {
+        println(fruit)
     }
 }
 
